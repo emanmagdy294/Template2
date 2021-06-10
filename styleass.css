@@ -34,7 +34,7 @@ nav
 }
 header
 {
-    background-image: url(intro-bg.jpg);
+    background-image: url(images/intro-bg.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -107,7 +107,7 @@ header h1,h2
  /****/
  .numbers
  {
-     background-image: url(post-3.jpg);
+     background-image: url(images/post-3.jpg);
      background-attachment: fixed;
      background-position: center center;
      background-size: cover;
@@ -197,9 +197,8 @@ border-radius: 5px;
  }
  .contacts-us
  {
-     background-image: url(overlay-bg.jpg);
+     background-image: url(images/overlay-bg.jpg);
      background-attachment: fixed;
-
      background-position: center center;
      background-size: cover;
      background-repeat: no-repeat;
@@ -299,7 +298,7 @@ border-radius: 5px;
     text-decoration: none;
 }
 .carousel-item{
-    background-image: url(overlay-bg.jpg);
+    background-image: url(images/overlay-bg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -347,19 +346,3 @@ border-radius: 5px;
     50% {content: "freema |";}
     100% {content: "freeman |";}
 }
-/*
-.test {
-    width: 300px;
-    height: 300px;
-    background-color: gray;
-    animation-name: changecolor;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-@keyframes changecolor
-{
-    0%{ background-color: hotpink; width: 100%;}
-    50%{ background-color:lightskyblue; width: 50%;}
-    100%{background-color: lightgreen; width: 10%;}
-}*/

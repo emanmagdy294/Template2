@@ -1,0 +1,19 @@
+header{
+    background-image: url(../images/bgs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:700px;
+    background-position: center center;
+
+}
+header h1 
+{
+    font-weight: 800;
+    font-size: 48px;
+}
+select
+{
+    box-shadow: none;
+    text-decoration: none;
+    border: none;
+}

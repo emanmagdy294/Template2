@@ -1,0 +1,365 @@
+html {
+    scroll-behavior: smooth;
+  }
+nav
+{
+    font-size: 20px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    color: white;
+    background-color: black; 
+}
+
+
+.nav-hover
+{
+    position: relative;
+}
+.nav-hover::after
+{
+    bottom: 0;
+    left: 0;
+    content: "";
+    color: white;
+    height: 1px;
+    background-color: white;
+    width: 0px;
+    position: absolute;
+    transition: all 1s;
+}
+.nav-hover:hover::after
+{
+    width: 70%;
+
+}
+header
+{
+    background-image: url(intro-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden; 
+    height: 100vh;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header h1,h2
+{
+ font-size:60px ;
+ font-weight: bold;
+}
+.caption-parent
+{
+    background-color: rgba(0, 0, 0, 0.5) ;
+    width: 100%;
+    height: 100%;
+ 
+}
+ .about-content span 
+ {
+     color: black;
+     font-weight: bold;
+ }
+.bord
+{
+        border-bottom:1px solid blue ;
+        border-width: 3px;
+        padding: 2px;
+        width:20%;
+        color:blue;  
+}
+.pragraph
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.icon
+{
+    text-align: center;
+    height: 100%; 
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+
+}
+.box
+{
+    border-radius: 20px; 
+}
+ .box:hover .icon
+ {
+     background-color:blue;
+     
+    box-shadow: 0 0 0 10px rgba(195, 195, 253, 0.7);
+ }
+ /****/
+ .numbers
+ {
+     background-image: url(post-3.jpg);
+     background-attachment: fixed;
+     background-position: center center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100%;
+     position: relative;
+    overflow: hidden; 
+ }
+ .number{
+    background-color: rgba(0, 0, 255, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+ }
+ 
+ .icons
+ {
+    text-align: center;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    border-radius: 50%;
+    line-height: 1;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px rgb(190, 200, 228);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; 
+ }
+ .border-under
+ {
+    border-bottom:1px solid blue ;
+    border-width: 4px;
+    padding: 2px;
+    width:5%;
+    color:blue;  
+    margin: auto;
+ }
+ .img-hover
+ {
+     overflow: hidden;
+ }
+ .imgs
+ {
+   width: 100%;
+   transition: 1s;
+ }
+ .imgs:hover{
+transform: scale(1.1);
+ }
+ .iconns
+ {
+     color: blue;
+     font-size:30px ;
+     border-radius: 50%;
+     height: 50px;
+     width: 50px;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 3px #0078ff;
+ }
+ /******/
+ .foot{
+     border: solid 2px rgb(194, 192, 192);
+ }
+ .foot-img
+ {
+  border-radius: 50%; 
+  width: 10%;  
+ }
+ .foot-post
+ {
+     padding-left: 50px;
+ }
+ .imgs-three
+ {
+     width: 100%;
+    
+ }
+ .boxs{
+background-color: blue;
+width: 30%;
+border-radius: 5px;
+ }
+ .contacts-us
+ {
+     background-image: url(overlay-bg.jpg);
+     background-attachment: fixed;
+
+     background-position: center center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100%;
+     position: relative;
+    overflow: hidden; 
+ }
+ .v
+ {
+    background-color: rgba(0, 0, 255, 0.5);
+    width: 100%;
+    height: 100%;
+ }
+ input,textarea
+ {
+     width: 100%;
+     margin-bottom: 20px;
+     padding: 10px;
+ }
+ .send
+ {
+     color: white;
+     width: 35%;
+     margin: auto;
+     border-radius: 30px;
+     background-color: blue;
+     text-align: center;  
+     transition: 1s;
+
+ }
+ 
+.send:hover
+{
+    background-color: cornflowerblue;
+}
+ .fot {
+     background-color: rgb(57, 57, 201);
+     color: white;
+ }
+.ic 
+{
+    font-size:30px ;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 3px #0078ff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+.ic:hover
+{
+    background-color:blue;
+     
+    box-shadow: 0 0 0 10px rgba(195, 195, 253, 0.7);   
+}
+.correct
+{
+  
+ 
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #0078ff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.fix
+{ 
+    float: right;
+   font-size: 30px;
+}
+
+.home-border
+{
+    border-bottom: solid 2px white;
+    width: 70%;
+}
+
+.web-design
+{
+    color: blue;
+}
+.go {
+    color: black;
+    font-size: larger;
+}
+.go:hover
+{
+    text-decoration: none;
+}
+.carousel-item{
+    background-image: url(overlay-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.slide
+{
+    background-color: rgba(0, 0, 255, 0.5);
+    width: 100%;
+    height: 100%;
+}
+.slide-img
+{
+    border-radius: 50%;
+    width: 25%;
+}
+.fix
+{
+    width: 40px;
+    position: fixed;
+    top: 550px;
+    right: 0;
+   
+}
+.circle:hover{
+    background-color: cornflowerblue;
+}
+/**********************/
+.home::after{
+    content: "";
+    animation-name: slider;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes slider {
+    0% {
+        content: "f |";
+    }
+    10% {content: "fr |";}
+    20% {content: "fre |";}
+    30% {content: "free |";}
+    40% {content: "freem |";}
+    50% {content: "freema |";}
+    100% {content: "freeman |";}
+}
+/*
+.test {
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+    animation-name: changecolor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes changecolor
+{
+    0%{ background-color: hotpink; width: 100%;}
+    50%{ background-color:lightskyblue; width: 50%;}
+    100%{background-color: lightgreen; width: 10%;}
+}*/
